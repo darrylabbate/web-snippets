@@ -15,3 +15,5 @@ $ ./new <snippet-name>
 ```
 
 The shell script creates a new subdirectory and copies template files from `.templates` to the newly created subdirectory. It serves as a small bootstrap for creating snippets a little more quickly.
+
+You may need to run `chmod +x new` in order for the script to be executable.

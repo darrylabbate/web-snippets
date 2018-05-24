@@ -1,6 +1,4 @@
-### https://raw.github.com/github/gitignore/e9c3096114fd81b92cf989f7343d7b168b80d994/Sass.gitignore
-
 .sass-cache/
 *.css.map
-
-
+*.sass.map
+*.scss.map

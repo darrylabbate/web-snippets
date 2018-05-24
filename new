@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+DIR_NAME=$1
+
+mkdir -p $DIR_NAME
+
+cp .templates/README-template.md $DIR_NAME/README.md
+cp .templates/index-template.slim $DIR_NAME/index.slim

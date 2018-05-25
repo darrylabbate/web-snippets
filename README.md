@@ -2,11 +2,12 @@
 
 This is a (growing) collection of CSS snippets mainly for my own personal reference.
 
-All CSS is written in Sass (original indented syntax) and compiled to CSS and SCSS using the [Sass](https://github.com/sass/dart-sass) executable (installed via [Homebrew](https://brew.sh)).
+## Stack
 
-HTML is written in Slim format and compiled to HTML with the [Slim gem](https://github.com/slim-template/slim).
+* [Sass](https://github.com/sass/dart-sass) (indented syntax)
+* [Slim](https://github.com/slim-template/slim)
 
-Screenshots are taken in Safari. All CSS is typically tested in Chrome.
+Screenshots are taken in Safari. All CSS is typically tested in Chrome as well.
 
 ## Creating new snippets with `new`
 

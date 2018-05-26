@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+body {
+  background: #ddd;
+}
+
+.container {
+  transform: rotate(30deg) skewX(-30deg) scaleY(0.864);
+  transform-origin: 50% 50%;
+  position: fixed;
+  padding: 20px;
+  padding-top: 800px;
+  padding-bottom: 1000px;
+  height: 100px;
+  width: 100%;
+  max-width: 800px;
+  left: 20%;
+  top: -70%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.card {
+  width: 200px;
+  padding: 8px;
+  margin: 8px;
+  position: relative;
+  float: left;
+  left: 0px;
+  top: 0px;
+  transition: all 0.1s linear 0s;
+}
+.card svg {
+  background: none;
+  fill: none;
+}
+.card:hover {
+  left: -15px;
+  top: -15px;
+  filter: drop-shadow(15px 15px 5px #aaa);
+}
+.card:hover > .cardcontent svg {
+  left: -5px;
+  top: -5px;
+  filter: drop-shadow(15px 15px 5px #999);
+}
+.card:hover > .cardcontent .ai, .card:hover > .cardcontent .dn, .card:hover > .cardcontent .ps, .card:hover > .cardcontent .xd {
+  left: -15px;
+  top: 5px;
+  filter: drop-shadow(15px 15px 5px #111);
+}
+
+.cardcontent, .cardcontent svg {
+  width: 140px;
+  padding: 8px;
+  margin: 10px;
+  position: absolute;
+  float: left;
+  left: 0px;
+  top: 0px;
+  transition: all 0.1s linear 0.05s;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 120px;
+  text-align: center;
+}
+.cardcontent .ai, .cardcontent .dn, .cardcontent .ps, .cardcontent .xd, .cardcontent svg .ai, .cardcontent svg .dn, .cardcontent svg .ps, .cardcontent svg .xd {
+  width: 200px;
+  left: -10px;
+  top: 10px;
+  transition: all 0.1s linear 0.05s;
+  position: absolute;
+}
+.cardcontent .ai, .cardcontent svg .ai {
+  color: #ec7b32;
+}
+.cardcontent .dn, .cardcontent svg .dn {
+  color: #cafcea;
+}
+.cardcontent .ps, .cardcontent svg .ps {
+  color: #55cff7;
+}
+.cardcontent .xd, .cardcontent svg .xd {
+  color: #f7d9f3;
+}

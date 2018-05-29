@@ -38,18 +38,18 @@ body {
   top: -15px;
   filter: drop-shadow(15px 15px 5px #aaa);
 }
-.card:hover > .cardcontent svg {
-  left: -5px;
-  top: -5px;
+.card:hover > .cardcontent object {
+  left: -10px;
+  top: -10px;
   filter: drop-shadow(15px 15px 5px #999);
 }
 .card:hover > .cardcontent .ai, .card:hover > .cardcontent .dn, .card:hover > .cardcontent .ps, .card:hover > .cardcontent .xd {
-  left: -15px;
-  top: 5px;
+  left: -20px;
+  top: 0px;
   filter: drop-shadow(15px 15px 5px #111);
 }
 
-.cardcontent, .cardcontent svg {
+.cardcontent, .cardcontent object {
   width: 140px;
   padding: 8px;
   margin: 10px;
@@ -62,22 +62,22 @@ body {
   font-size: 120px;
   text-align: center;
 }
-.cardcontent .ai, .cardcontent .dn, .cardcontent .ps, .cardcontent .xd, .cardcontent svg .ai, .cardcontent svg .dn, .cardcontent svg .ps, .cardcontent svg .xd {
+.cardcontent .ai, .cardcontent .dn, .cardcontent .ps, .cardcontent .xd, .cardcontent object .ai, .cardcontent object .dn, .cardcontent object .ps, .cardcontent object .xd {
   width: 200px;
   left: -10px;
   top: 10px;
   transition: all 0.1s linear 0.05s;
   position: absolute;
 }
-.cardcontent .ai, .cardcontent svg .ai {
+.cardcontent .ai, .cardcontent object .ai {
   color: #ec7b32;
 }
-.cardcontent .dn, .cardcontent svg .dn {
+.cardcontent .dn, .cardcontent object .dn {
   color: #cafcea;
 }
-.cardcontent .ps, .cardcontent svg .ps {
+.cardcontent .ps, .cardcontent object .ps {
   color: #55cff7;
 }
-.cardcontent .xd, .cardcontent svg .xd {
+.cardcontent .xd, .cardcontent object .xd {
   color: #f7d9f3;
 }
